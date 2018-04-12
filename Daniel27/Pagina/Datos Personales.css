@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:3px;
+	padding:8px;
+ } 
+	#heads{
+		margin:auto;
+		width:800px;
+		font-family:"Arial Black", sans-serif;	
+		}
+	  ul,ol {
+		  list-style:none;
+	           }
+	   .nav > li {
+		       float: left;
+	                  }
+		.nav li a { 
+		            background-color:#963;	
+					      color:#F33
+						  text-decoration:none; 
+						  padding:5px 10px;
+						  display:compact;
+						  font-family:"Arial Black", cursive;
+						  box-shadow:#333 10px 10px 10px
+						             #69F 15px 15px 15px
+									 #666  20px 20px 20px;
+									  text-shadow:#666 10px 10px 10px
+									              #000 15px 15px 15px
+												  #399 20px  20px 20px;
+		                                             }
+													 , nav li a:hover {
+														  background:#666
+														   #000;
+														  font-famyly:Tahoma;
+														  font-size:35px;
+													 }
+													 /*Fin menu css*/
+													 /*inicio cuerpo csss*/
+													 body {
+													     background:url(fondo1.jpg);
+														 background-position:center;
+														 background-repeat:repeat;
